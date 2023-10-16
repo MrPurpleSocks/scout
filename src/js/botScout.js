@@ -14,7 +14,7 @@ function accessAPI(team) {
 
     var request = new XMLHttpRequest()
     request.open('GET', formattedURL, true)
-    request.setRequestHeader('X-TBA-Auth-Key', 'TBA-API-Auth-Key')
+    request.setRequestHeader('X-TBA-Auth-Key', 'Pl2mLYDebswRLcZxB615g957OUsC05KyrRv8RYGEGXr49muWAmii4I1ww9OqDVxe') // Replace with your own API Key
     request.onload = function () {
         var dataJSON = JSON.parse(this.response)
 
