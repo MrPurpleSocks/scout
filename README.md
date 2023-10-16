@@ -9,4 +9,4 @@ A scouting app (website) created for FRC team 3256. Hopefully this will be expan
 5. Enter a project description, eg. ScoutDevV1
 6. Add New Key
 7. Copy the new key
-8. Replace all places that say "TBA-API-Auth-Key" with your TBA API Key
+8. Replace all places that contain a TBA API key with your TBA API Key

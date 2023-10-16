@@ -9,7 +9,7 @@ app.appendChild(container)
 
 var request = new XMLHttpRequest()
 request.open('GET', 'https://www.thebluealliance.com/api/v3/teams/6', true)
-request.setRequestHeader('X-TBA-Auth-Key', 'Pl2mLYDebswRLcZxB615g957OUsC05KyrRv8RYGEGXr49muWAmii4I1ww9OqDVxe')
+request.setRequestHeader('X-TBA-Auth-Key', 'Pl2mLYDebswRLcZxB615g957OUsC05KyrRv8RYGEGXr49muWAmii4I1ww9OqDVxey') // Replace With Your Own API Key
 request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response)
