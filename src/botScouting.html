@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot Scouting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container py-5">
+        <h2 class="h2">Robot Scouting Form</h2>
+        <form id="form">
+            <div class="mb-3">
+                <input class="form-control" id="teamNumber" type="text" placeholder="Team Number" aria-label="team number input">
+            </div>
+            <div class="mb-3">
+                <input class="form-control" id="eventCode" type="text" placeholder="Event Code" aria-label="event code input">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </form>
+        <div id="data">
+            <!-- Filled with API Data -->
+        </div>
+    </div>
+<script src="js/botScout.js"></script>
+</body>
+</html>
